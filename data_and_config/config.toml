@@ -1,5 +1,4 @@
-#ollama_host = "http://gpu:11434"
-ollama_host = "http://172.22.100.39:11434"
+ollama_host = "http://your.ollama.server:11434"
 
 model = "gemma4:e4b"
 
