@@ -222,7 +222,7 @@ st.markdown(
 # the page proper
 st.markdown('<div class="app-title">Plate Reading with Gemma4</div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="intro-text">This demo shows image classification capabilities of the Gemma4 LLM. The demo will only be available until June 7th, 2026. <br />Select an image of a plate, view the label and optionally send it to Gemma4 for classification.</div>',
+    '<div class="intro-text">This demo showcases the image classification capabilities of the Gemma4 LLM. The demo will only be available until June 7th, 2026. <br />Select an image of a plate, view the label and optionally send it to Gemma 4 for classification.</div>',
     unsafe_allow_html=True,
 )
 st.write("")
@@ -362,6 +362,7 @@ st.markdown(
     <div class="footer-wrap small-text">
         <div class="field-title">Information</div>
         This is a demo intended to promote scientific discussion. It is created and maintained for a limited time by <a href="https://johanneselias.net" target = "_blank">Johannes Elias</a>.
+        The source code of this app is available at <a href="https://github.com/joheli/gemma4-hackathon" target="_blank">Github</a>.
     </div>
     """,
     unsafe_allow_html=True,
