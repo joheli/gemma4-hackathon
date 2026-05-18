@@ -1,0 +1,11 @@
+services:
+  streamlighter:
+    build:
+      context: .
+      dockerfile: demo.Dockerfile
+    ports: 
+      - "8501:8501"
+    volumes:
+      - ./data_and_config:/app/data_and_config
+      - ./demo.py:/app/sl-apps/demo.py
+

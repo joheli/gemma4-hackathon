@@ -1,0 +1,2 @@
+oneshot @ git+https://github.com/joheli/oneshot.git
+
