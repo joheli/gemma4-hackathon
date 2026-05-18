@@ -222,7 +222,7 @@ st.markdown(
 # the page proper
 st.markdown('<div class="app-title">Plate Reading with Gemma4</div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="intro-text">This demo showcases the image classification capabilities of the Gemma4 LLM. The demo will only be available until June 7th, 2026. <br />Select an image of a plate, view the label and optionally send it to Gemma 4 for classification.</div>',
+'<div class="intro-text">This demo showcases the image classification capabilities of the <a href="https://deepmind.google/models/gemma/gemma-4/" target="_blank">Gemma 4</a> LLM. The live demo will only be available until June 7th, 2026. <br />Select an image of a plate, view the label and optionally send it to Gemma 4 for classification.</div>',
     unsafe_allow_html=True,
 )
 st.write("")
