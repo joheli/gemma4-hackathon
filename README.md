@@ -1,6 +1,6 @@
 # Contribution to `The Gemma 4 Good Hackathon`
 
-*submitted on May, 18th 2026 to Kaggle: [AI-Powered Agar Plate Reading for Clinical Microbiology](https://www.kaggle.com/competitions/gemma-4-good-hackathon/writeups/new-writeup-1779101791865)*
+*submitted on May 18th, 2026 to Kaggle: [AI-Powered Agar Plate Reading for Clinical Microbiology](https://www.kaggle.com/competitions/gemma-4-good-hackathon/writeups/new-writeup-1779101791865)*
 
 ## Live demo
 
