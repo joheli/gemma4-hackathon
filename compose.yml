@@ -3,9 +3,17 @@ services:
     build:
       context: .
       dockerfile: demo.Dockerfile
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /run
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
     ports: 
-      - "8501:8501"
+      - "127.0.0.1:8501:8501"
     volumes:
-      - ./data_and_config:/app/data_and_config
-      - ./demo.py:/app/sl-apps/demo.py
+      - ./data_and_config:/app/data_and_config:ro
+      - ./demo.py:/app/sl-apps/demo.py:ro
 
